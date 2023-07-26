@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('*', (req, res) => {
-  res.send('errrrouuuuu!', 404);
+  res.send('errrrouuuiuuuu!', 404);
 });
 
 app.listen(PORT, HOST);
