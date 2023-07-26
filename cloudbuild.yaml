@@ -10,7 +10,7 @@ steps:
       - 'minha-aplicacao'
       - '--image=gcr.io/unirio-389619/cicd-teste:latest'
       - '--platform=managed'
-      - '--region=us-central1'
+      - '--region=us-central1-a'
       - '--allow-unauthenticated'
 options:
   logging: NONE
