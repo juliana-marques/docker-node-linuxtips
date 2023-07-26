@@ -8,7 +8,7 @@ steps:
       - 'run'
       - 'deploy'
       - 'minha-aplicacao'
-      - '--image=gcr.io/gin-prod/cluster-gin:latest'
+      - '--image=gcr.io/gin-prod/cluster-gin'
       - '--platform=managed'
       - '--region=us-central1-a'
       - '--allow-unauthenticated'
